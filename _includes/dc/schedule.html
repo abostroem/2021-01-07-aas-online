@@ -177,6 +177,31 @@ The schedule for the different curricula are listed here:
   </div>
 </div>
 
+{% elsif site.curriculum == "dc-astronomy" %}
+
+<div class="row">
+  <div class="col-md-6">
+    <table class="table table-striped">
+      <tr>
+        <td>Session 1</td>
+        <td>Database queries</td>
+      </tr>
+      <tr>
+        <td>Session 2</td>
+        <td>Working with data</td>
+      </tr>
+      <tr>
+        <td>Session 3</td>
+        <td>Database join operations</td>
+      </tr>
+      <tr>
+        <td>Session 4</td>
+        <td>Publication-ready figures</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
 {% else %}
 {% include warning-curriculum.html %}
 {% endif %}
