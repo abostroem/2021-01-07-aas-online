@@ -14,7 +14,7 @@ humantime: "1:00 pm - 5:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2020-11-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-11-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Allen Downey", "Azalee Bostroem"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Rudy Montez", "Erin Becker"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["downey@allendowney.com","abostroem@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:  "119504125055"         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -103,13 +103,17 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "swc" %}
-{% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/who.html %}
-{% endif %}
+The Astronomy Curriculum Development Committee (ACDC) is excited to announce a community test drive of the pilot Data Carpentry
+workshop for Astronomers. The astronomy-tailored curriculum is designed to provide astronomers with essential skills for data-intensive
+analysis and visualization. The curriculum focuses on  building complex SQL queries using Astroquery, working with the retrieved data
+in Astropy Tables and Pandas data frames, storing the data locally for future use, and communicating the results with clear and compelling
+figures using Matplotlib.
+
+This test drive is designed to vet and improve the curriculum before the lessons are prepared for wider distribution. In particular, we seek 
+participation from folks in the community at all stages of their education and careers. Participants are expected to have knowledge equivalent to 
+the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and 
+dictionaries, and the ability to navigate directories using the command line. In addition, we welcome participants who are familiar with the 
+concepts presented and would like to provide comprehensive feedback on the lessons.
 
 {% comment %}
 LOCATION
@@ -170,7 +174,9 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants are expected to have knowledge equivalent to 
+the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and 
+dictionaries, and the ability to navigate directories using the command line.
 </p>
 
 {% comment %}
@@ -316,43 +322,6 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
-
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% endif %}
-
-<hr/>
-
-{% comment %}
-SYLLABUS
-
-Show what topics will be covered.
-
-1. If your workshop is R rather than Python, remove the comment
-around that section and put a comment around the Python section.
-2. Some workshops will delete SQL.
-3. Please make sure the list of topics is synchronized with what you
-intend to teach.
-4. You may need to move the div's with class="col-md-6" around inside
-the div's with class="row" to balance the multi-column layout.
-
-This is one of the places where people frequently make mistakes, so
-please preview your site before committing, and make sure to run
-'tools/check' as well.
-{% endcomment %}
-<h2 id="syllabus">Syllabus</h2>
-
-{% if site.carpentry == "swc" %}
-{% include swc/syllabus.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/syllabus.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/syllabus.html %}
-{% endif %}
 
 <hr/>
 
