@@ -105,15 +105,10 @@ workshop is only open to people from a particular institution.
 {% endcomment %}
 The Astronomy Curriculum Development Committee (ACDC) is excited to announce a community test drive of the pilot Data Carpentry
 workshop for Astronomers. The astronomy-tailored curriculum is designed to provide astronomers with essential skills for data-intensive
-analysis and visualization. The curriculum focuses on  building complex SQL queries using Astroquery, working with the retrieved data
-in Astropy Tables and Pandas data frames, storing the data locally for future use, and communicating the results with clear and compelling
-figures using Matplotlib.
+analysis and visualization. The curriculum focuses on building complex SQL queries using Astroquery, working with the retrieved data
+in Astropy Tables and Pandas DataFrames, storing the data locally for future use, and communicating the results with clear and compelling figures using Matplotlib.
 
-This test drive is designed to vet and improve the curriculum before the lessons are prepared for wider distribution. In particular, we seek 
-participation from folks in the community at all stages of their education and careers. Participants are expected to have knowledge equivalent to 
-the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and 
-dictionaries, and the ability to navigate directories using the command line. In addition, we welcome participants who are familiar with the 
-concepts presented and would like to provide comprehensive feedback on the lessons.
+This test drive is designed to vet and improve the curriculum before the lessons are prepared for wider distribution. In particular, we seek participation from folks in the Astronomy community at all stages of their education and careers. Participants are expected to have knowledge equivalent to the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and dictionaries, and the ability to navigate directories using the command line. In addition, we welcome participants who are familiar with the concepts presented and would like to provide comprehensive feedback on the lessons.
 
 {% comment %}
 LOCATION
@@ -174,9 +169,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants are expected to have knowledge equivalent to 
-the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and 
-dictionaries, and the ability to navigate directories using the command line.
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>). Participants are expected to have knowledge equivalent to the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and dictionaries, and the ability to navigate directories using the command line.
 </p>
 
 {% comment %}
@@ -323,12 +316,15 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-| Start Time  | Topic | Instructor |
-| ---------- | ------ | ---------- |
-| | | |
-| | | |
-| | | |
-| | | |
+| Session               | Topic                                 | Instructor |
+| ----------            | ------                                | ---------- |
+| Day 1, Session 1      | ADQL queries and Astropy Tables       |           |
+| Day 1, Session 2      | Complex queries and coordinates       |           |
+| Day 2, Session 1      | Plotting, Pandas, and filtering       |           |
+| Day 2, Session 2      | Advanced queries and transforms       |           |
+| Day 3, Session 1      | Uploading tables and ADQL joins       |           |
+| Day 3, Session 2      | Selection with photometry data        |           |
+| Day 4, Session 1      | Making compelling figures             |           |
 
 <hr/>
 
