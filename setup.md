@@ -28,7 +28,7 @@ Installing libraries in an existing environment is simpler, but if you use the s
 Most of the libraries we need can be installed using conda.
 
 ```
-conda install jupyter numpy scipy pandas matplotlib seaborn
+conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
 conda install -c conda-forge astropy astroquery astro-gala
 ```
 
@@ -56,6 +56,12 @@ conda activate astronomy-python
 
 ### Run Jupyter
 
+Before you launch Jupyter, download this notebook, which contains code to test your environment:
+
+```
+wget https://github.com/AllenDowney/2020-11-16-astrodc-online/raw/gh-pages/test_setup.ipynb
+```
+
 To start Jupyter, run:
 
 ```
@@ -77,13 +83,7 @@ In this case, the URL is [http://localhost:8888](http://localhost:8888).
 When you start your server, you might get a different URL.
 Whatever it is, if you paste it into a browser, you should should see a home page with a list of directories.
 
-To test your environment, download this notebook:
-
-```
-wget https://github.com/AllenDowney/2020-11-16-astrodc-online/raw/gh-pages/test_setup.ipynb
-```
-
-Now open the notebook and run the cells that contain import statements.
+Now open the notebook you downloaded and run the cells that contain import statements.
 If they work and you get no error messages, **you are all set**.
 
 If you get error messages about missing packages, you can install the packages you need using conda or pip.
