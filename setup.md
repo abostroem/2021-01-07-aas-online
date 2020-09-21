@@ -1,7 +1,8 @@
-## Running the code
+## Installation
 
 For this workshop, we encourage you to work in a Jupyter notebook.
-If you are not familiar with Jupyter, you can run a tutorial by [clicking here](https://jupyter.org/try).  
+If you are not familiar with Jupyter, you can run a tutorial by [clicking here](https://jupyter.org/try).
+
 Then select "Try Classic Notebook".  It will open a notebook with instructions for getting started.
 
 You will need to install Python, Jupyter, and some additional libraries.
@@ -15,10 +16,11 @@ If you have the choice of Python 2 or 3, choose Python 3.
 
 There are two ways to get the libraries you need:
 
-* You can install them in an existing conda environment.  
-Pro: You don't have to activate and deactivate environments.  
-Con: If you use the same environment for many projects, it will get big, complicated,
-and prone to package conflicts.
+* You can install them in an existing conda environment.
+
+* You can create a new conda environment.
+
+Installing libraries in an existing environment is simpler, but if you use the same environment for many projects, it will get big, complicated, and prone to package conflicts.
 
 
 ### Install libraries in an existing conda environment
