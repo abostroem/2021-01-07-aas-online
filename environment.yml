@@ -15,6 +15,7 @@ dependencies:
   - astropy
   - astroquery
   - astro-gala
+  - libopenblas
   - pip
   - pip:
     - pyia
