@@ -1,7 +1,7 @@
 ## Installation
 
 For this workshop, we encourage you to work in a Jupyter notebook.
-If you are not familiar with Jupyter, you can run a tutorial by [clicking here](https://jupyter.org/try).
+If you are not familiar with Jupyter, you can [run a tutorial by clicking here](https://jupyter.org/try).
 
 Then select "Try Classic Notebook".  It will open a notebook with instructions for getting started.
 
@@ -65,7 +65,7 @@ conda activate AstronomicalData
 
 ### Run Jupyter
 
-Before you launch Jupyter, download [this notebook](https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/test_setup.ipynb), which contains code to test your environment.
+Before you launch Jupyter, [download this notebook](https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/test_setup.ipynb), which contains code to test your environment.
 
 Or you can use `wget` to download it on the command line, like this:
 
