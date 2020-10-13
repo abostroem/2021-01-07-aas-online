@@ -25,7 +25,9 @@ Installing libraries in an existing environment is simpler, but if you use the s
 
 ### Install libraries in an existing conda environment
 
-Most of the libraries we need can be installed using conda.
+Most of the libraries we need can be installed using Conda, by running the following commands in a Terminal.
+
+If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
 
 ```
 conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
@@ -43,7 +45,7 @@ pip install pyia
 To create and activate a new conda environment, run:
 
 ```
-wget https://raw.githubusercontent.com/AllenDowney/2020-11-16-astrodc-online/gh-pages/environment.yml
+wget https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/environment.yml
 ```
 
 To download an environment file that lists the libraries you need, and then:
@@ -59,7 +61,7 @@ conda activate astronomy-python
 Before you launch Jupyter, download this notebook, which contains code to test your environment:
 
 ```
-wget https://github.com/AllenDowney/2020-11-16-astrodc-online/raw/gh-pages/test_setup.ipynb
+wget https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/test_setup.ipynb
 ```
 
 To start Jupyter, run:
