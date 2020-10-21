@@ -317,16 +317,17 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 <h2 id="schedule">Schedule</h2>
 Each day we will strive for 2.5 hours of instruction broken into cycles of 25 minutes of instruction, 5 minutes written feedback, 5 minute break.
 We will then take a 15 minute break and then finish the day with a more intensive structured feedback session.
+As this is our first time presenting this material, the days listed below are only approximate.
 
-| Session               | Topic                                 | Instructor |
-| ----------            | ------                                | ---------- |
-| Day 1, Session 1      | ADQL queries and Astropy Tables       |           |
-| Day 1, Session 2      | Complex queries and coordinates       |           |
-| Day 2, Session 1      | Plotting, Pandas, and filtering       |           |
-| Day 2, Session 2      | Advanced queries and transforms       |           |
-| Day 3, Session 1      | Uploading tables and ADQL joins       |           |
-| Day 3, Session 2      | Selection with photometry data        |           |
-| Day 4, Session 1      | Making compelling figures             |           |
+| Session       | Topic                                 | Instructor |
+| ----------    | ------                                | ---------- |
+| Monday        | ADQL queries and Astropy Tables       |Allen       |
+| Monday        | Complex queries and coordinates       |Allen       |
+| Tuesday       | Plotting, Pandas, and filtering       |Azalee      |
+| Wednesday     | Advanced queries and transforms       |Allen       |
+| Thursday      | Uploading tables and ADQL joins       |Azalee      |
+| Thursday      | Selection with photometry data        |Allen       |
+| Friday        | Making compelling figures             |Azalee      |
 
 <hr/>
 
