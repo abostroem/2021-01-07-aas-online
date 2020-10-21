@@ -315,6 +315,8 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+Each day we will strive for 2.5 hours of instruction broken into cycles of 25 minutes of instruction, 5 minutes written feedback, 5 minute break.
+We will then take a 15 minute break and then finish the day with a more intensive structured feedback session.
 
 | Session               | Topic                                 | Instructor |
 | ----------            | ------                                | ---------- |
