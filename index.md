@@ -9,14 +9,14 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "45"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "November 16-19, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "November 16-20, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "1:00 pm - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-11-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-11-19        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2020-11-20        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Allen Downey", "Azalee Bostroem"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Rudy Montez", "Erin Becker"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["downey@allendowney.com","abostroem@gmail.com"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  https://pad.carpentries.org/2020-11-16-astrodc-online # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes: # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:  "119504125055"         # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -315,16 +315,19 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+Each day we will strive for 2.5 hours of instruction broken into cycles of 25 minutes of instruction, 5 minutes written feedback, 5 minute break.
+We will then take a 15 minute break and then finish the day with a more intensive structured feedback session.
+As this is our first time presenting this material, the days listed below are only approximate.
 
-| Session               | Topic                                 | Instructor |
-| ----------            | ------                                | ---------- |
-| Day 1, Session 1      | ADQL queries and Astropy Tables       |           |
-| Day 1, Session 2      | Complex queries and coordinates       |           |
-| Day 2, Session 1      | Plotting, Pandas, and filtering       |           |
-| Day 2, Session 2      | Advanced queries and transforms       |           |
-| Day 3, Session 1      | Uploading tables and ADQL joins       |           |
-| Day 3, Session 2      | Selection with photometry data        |           |
-| Day 4, Session 1      | Making compelling figures             |           |
+| Session       | Topic                                 | Instructor |
+| ----------    | ------                                | ---------- |
+| Monday        | ADQL queries and Astropy Tables       |Allen       |
+| Monday        | Complex queries and coordinates       |Allen       |
+| Tuesday       | Plotting, Pandas, and filtering       |Azalee      |
+| Wednesday     | Advanced queries and transforms       |Allen       |
+| Thursday      | Uploading tables and ADQL joins       |Azalee      |
+| Thursday      | Selection with photometry data        |Allen       |
+| Friday        | Making compelling figures             |Azalee      |
 
 <hr/>
 
