@@ -448,4 +448,11 @@ If they work and you get no error messages, **you are all set**.
 
 If you get error messages about missing packages, you can install the packages you need using Conda or `pip`.
 
+At the end of the notebook, you'll be asked to copy and paste a line of code from [our Slack workspace](https://app.slack.com/client/T01DJHEP8Q1/C01D2TZA8SH)
+to the Jupyter notebook and run it.
+The reason for this test is that some environments convert "straight" quotation marks to "smart" quotation
+marks, which has the effect of breaking Python code.
+If you encounter this problem, you might have to check your system settings to turn off this "feature".
+
+
 If you run into problems with these instructions, let us know and we will make corrections.  Good luck!
