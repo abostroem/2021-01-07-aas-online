@@ -316,19 +316,14 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
-Each day we will strive for 2.5 hours of instruction broken into cycles of 25 minutes of instruction, 5 minutes written feedback, 5 minute break.
-We will then take a 15 minute break and then finish the day with a more intensive structured feedback session.
-As this is our first time presenting this material, the days listed below are only approximate.
 
-| Session       | Topic                                 | Instructor |
-| ----------    | ------                                | ---------- |
-| Monday        | ADQL queries and Astropy Tables       |Allen       |
-| Monday        | Complex queries and coordinates       |Allen       |
-| Tuesday       | Plotting, Pandas, and filtering       |Azalee      |
-| Wednesday     | Advanced queries and transforms       |Allen       |
-| Thursday      | Uploading tables and ADQL joins       |Azalee      |
-| Thursday      | Selection with photometry data        |Allen       |
-| Friday        | Making compelling figures             |Azalee      |
+{% if site.carpentry == "swc" %}
+{% include swc/schedule.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
 
 <hr/>
 

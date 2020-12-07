@@ -16,45 +16,31 @@ The schedule for the different curricula are listed here:
 	<td>Before starting</td>
 	<td><a href="{{ site.pre_survey }}{{ site.github.project_title }}" target="_blank">Pre-workshop survey</a></td>
       </tr>
-      <tr><td>Morning</td> <td> <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Organization in Spreadsheets</a></td></tr>
-      <tr><td> </td><td><a href="https://datacarpentry.org/OpenRefine-ecology-lesson/">OpenRefine for Data Cleaning</a></td></tr>
-      <tr>
-        <td>Afternoon</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Introduction to R</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Introduction to Python</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-      </td></tr>
-      <tr> <td>Evening</td> <td>END</td> </tr>
+      <tr><td>11am-12:20pm</td> <td> Welcome </td></tr>
+      <tr><td></td> <td> <a href="https://allendowney.github.io/AstronomicalData/README.html">Introduction</a></td></tr>
+      <tr><td></td> <td> <a href="https://allendowney.github.io/AstronomicalData/01_query.html">Querying Remote Databases and Downloading Results</a></td></tr>
+      <tr><td>12:20pm-12:50pm</td> <td> Break</td></tr>
+      <tr><td>12:40pm-2:00pm</td> <td> <a href="https://allendowney.github.io/AstronomicalData/01_query.html">Querying remote fatabases and downloading results</a></td></tr>
+      <tr><td> </td><td><a href="https://allendowney.github.io/AstronomicalData/02_coords.html">Filtering Data by Coordinate</a></td></tr>
+      <tr><td>2:00pm-2:30pm</td> <td> Break</td></tr>
+      <tr><td>2:30pm-3:50pm</td><td><a href="https://allendowney.github.io/AstronomicalData/02_coords.html">Filtering data by coordinate with Astropy</a></td></tr>
+      <tr><td> </td><td><a href="https://allendowney.github.io/AstronomicalData/03_motion.html">Selecting data by proper motion</a></td></tr>
+      <tr><td>3:50pm-4:10pm</td> <td> Break</td></tr>
+      <tr><td>4:10pm-6pm</td><td><a href="https://allendowney.github.io/AstronomicalData/03_motion.html">Selecting data by proper motion and visualizing selection</a></td></tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>Morning</td>
-        <td>
-          {% if site.flavor == "r" %}
-          <a href="https://datacarpentry.org/R-ecology-lesson/">Continuation of R: Data analysis and Visualization</a>
-          {% elsif site.flavor == "python" %}
-          <a href="https://datacarpentry.org/python-ecology-lesson/">Continuation of Python: Data analysis and Visualization</a>
-          {% else %}
-          {% include warning-flavor.html %}
-          {% endif %}
-        </td>
-      </tr>
-      <tr> <td>Afternoon</td><td><a href="https://datacarpentry.org/sql-ecology-lesson/">Data Management with SQL</a></td></tr>
-      <tr>
-	<td>Evening</td>
-	<td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td>
-      </tr>
-      <tr>
-	<td> </td>
-	<td> END </td>
-      </tr>
+      <tr><td>11am-12:20pm</td> <td> <a href="https://allendowney.github.io/AstronomicalData/04_select.html">Writing reusable functions</a></td></tr>
+      <tr><td>12:20pm-12:50pm</td> <td> Break</td></tr>
+      <tr><td>12:40pm-2:00pm</td> <td> <a href="https://allendowney.github.io/AstronomicalData/05_join.html">Combining information from more than one table</a></td></tr>
+      <tr><td>2:00pm-2:30pm</td> <td> Break</td></tr>
+      <tr><td>2:30pm-3:50pm</td><td><a href="https://allendowney.github.io/AstronomicalData/06_photo.html">Manipulating data with Pandas</a></td></tr>
+      <tr><td>3:50pm-4:10pm</td> <td> Break</td></tr>
+      <tr><td>4:10pm-5:50pm</td><td><a href="https://allendowney.github.io/AstronomicalData/07_plot.html">Creating a Publication Quality Figure with Matplotlib</a></td></tr>
+      <tr><td>5:50-6:00pm</td><td><a href="{{ site.post_survey }}{{ site.github.project_title }}" target="_blank">Post-workshop survey</a></td></tr>
+      <tr><td> </td><td> END </td></tr>
     </table>
   </div>
 </div>
