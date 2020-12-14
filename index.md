@@ -102,12 +102,11 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-The Astronomy Curriculum Development Committee (ACDC) is excited to announce a community test drive of the pilot Data Carpentry
-workshop for Astronomers. The astronomy-tailored curriculum is designed to provide astronomers with essential skills for data-intensive
+The astronomy-tailored curriculum is designed to provide astronomers with essential skills for data-intensive
 analysis and visualization. The curriculum focuses on building complex SQL queries using Astroquery, working with the retrieved data
 in Astropy Tables and Pandas DataFrames, storing the data locally for future use, and communicating the results with clear and compelling figures using Matplotlib.
 
-This test drive is designed to vet and improve the curriculum before the lessons are prepared for wider distribution. In particular, we seek participation from folks in the Astronomy community at all stages of their education and careers. Participants are expected to have knowledge equivalent to the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and dictionaries, and the ability to navigate directories using the command line. In addition, we welcome participants who are familiar with the concepts presented and would like to provide comprehensive feedback on the lessons.
+This workshop is intended for folks in the Astronomy community at all stages of their education and careers. Participants are expected to have knowledge equivalent to the Software Carpentry Python Curriculum: the ability to write a function in Python, familiarity with Python built-in types such as lists and dictionaries, and the ability to navigate directories using the command line. In addition, we welcome participants who are familiar with the concepts presented and would like to provide comprehensive feedback on the lessons.
 
 {% comment %}
 LOCATION
@@ -316,6 +315,7 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+Given the virtual nature of this workshop, three 30 minute breaks will be given rather than two short breaks and a long lunch break. In between each 30 minute break there will be a five minute break, after approximately 30 minutes of instruction.
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
