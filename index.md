@@ -374,8 +374,15 @@ The libraries we need can be installed using Conda, by running the following com
 If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
 
 ```
+conda config --append channels conda-forge
 conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
 conda install -c conda-forge astropy astroquery astro-gala python-wget
+```
+
+If you are on Windows, you might have to install astro-gala with pip, like this:
+
+```
+pip install astro-gala
 ```
 
 #### Create a new Conda environment
