@@ -376,13 +376,13 @@ If you are on a Mac or Linux machine, you should be able to use any Terminal.  I
 ```
 conda config --append channels conda-forge
 conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
-conda install -c conda-forge astropy astroquery astro-gala python-wget
+conda install -c conda-forge astropy astroquery gala python-wget
 ```
 
-If you are on Windows, you might have to install astro-gala with pip, like this:
+If you are on Windows, you might have to install gala with pip, like this:
 
 ```
-pip install astro-gala
+pip install gala
 ```
 
 #### Create a new Conda environment
