@@ -361,30 +361,12 @@ and because it does a user-level install, it will not interfere with other Pytho
 If you have the choice of Python 2 or 3, choose Python 3.
 
 There are two ways to get the libraries you need:
-* You can install them in an existing Conda environment (not recommended).
 * You can create a new Conda environment (recommended).
+* You can install them in an existing Conda environment (not recommended).
 
 Installing libraries in an existing environment is simpler, but if you use the same environment for many projects, it will get big, complicated, and prone to package conflicts.
 
 It is also possible to install the libraries you need using `pip`, but we don't recommend it.
-
-
-#### Install libraries in an existing Conda environment
-
-The libraries we need can be installed using Conda, by running the following commands in a Terminal.
-If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
-
-```
-conda config --append channels conda-forge
-conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
-conda install -c conda-forge astropy astroquery gala python-wget
-```
-
-If you are on Windows, you might have to install gala with pip, like this:
-
-```
-pip install gala
-```
 
 #### Create a new Conda environment
 
@@ -406,6 +388,23 @@ Then, to activate the environment you just created, run:
 
 ```
 conda activate AstronomicalData
+```
+
+#### Install libraries in an existing Conda environment (not recommended)
+
+The libraries we need can be installed using Conda, by running the following commands in a Terminal.
+If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
+
+```
+conda config --append channels conda-forge
+conda install jupyter numpy scipy pandas matplotlib seaborn libopenblas
+conda install -c conda-forge astropy astroquery gala python-wget
+```
+
+If you are on Windows, you might have to install gala with pip, like this:
+
+```
+pip install gala
 ```
 
 #### Run Jupyter
