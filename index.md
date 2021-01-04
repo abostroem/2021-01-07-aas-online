@@ -390,7 +390,7 @@ Then, to activate the environment you just created, run:
 conda activate AstronomicalData
 ```
 
-#### Install libraries in an existing Conda environment
+#### Install libraries in an existing Conda environment (not recommended)
 
 The libraries we need can be installed using Conda, by running the following commands in a Terminal.
 If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
