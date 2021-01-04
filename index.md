@@ -361,16 +361,17 @@ and because it does a user-level install, it will not interfere with other Pytho
 If you have the choice of Python 2 or 3, choose Python 3.
 
 There are two ways to get the libraries you need:
-* You can install them in an existing Conda environment.
-* You can create a new Conda environment.
+* You can install them in an existing Conda environment (not recommended).
+* You can create a new Conda environment (recommended).
 
 Installing libraries in an existing environment is simpler, but if you use the same environment for many projects, it will get big, complicated, and prone to package conflicts.
+
+It is also possible to install the libraries you need using `pip`, but we don't recommend it.
 
 
 #### Install libraries in an existing Conda environment
 
 The libraries we need can be installed using Conda, by running the following commands in a Terminal.
-
 If you are on a Mac or Linux machine, you should be able to use any Terminal.  If you are on Windows, you might have to use the Anaconda Prompt, which you can find under the Start menu.
 
 ```
@@ -393,7 +394,7 @@ To create a new Conda environment, you'll need to download an environment file f
 wget https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/environment.yml
 ```
 
-Or you can [download it using this link](https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/environment.yml).
+Or you can [download it using this link](https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/environment.yml); make sure the filename is `environment.yml`, not `environment.yml.txt`.
 
 In a Terminal or Jupyter Prompt, make sure you are in folder where `environment.yml` is stored, and run:
 
@@ -417,7 +418,7 @@ Or you can use `wget` to download it on the command line, like this:
 wget https://raw.githubusercontent.com/AllenDowney/AstronomicalData/main/test_setup.ipynb
 ```
 
-To start Jupyter, run:
+To start Jupyter, make sure the right Conda environment is activated, then run:
 
 ```
 jupyter notebook
@@ -434,7 +435,7 @@ $ jupyter notebook
 [I 10:03:20.115 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
-In this case, the URL is [http://localhost:8888](http://localhost:8888).  
+In this example, the URL is [http://localhost:8888](http://localhost:8888).  
 When you start your server, you might get a different URL.
 Whatever it is, if you paste it into a browser, you should should see a home page with a list of directories.
 
